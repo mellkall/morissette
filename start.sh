@@ -1,8 +1,8 @@
 #!/bin/sh
 
 #Xray版本
-AUUID=afd21506-b2f2-4773-987f-970d4f1df630
-CADDYIndexPage=https://www.free-css.com/assets/files/free-css-templates/download/page282/crism.zip
+AUUID=0aac56c4-d11c-40e8-b6e9-546e72eebfcb
+CADDYIndexPage=https://github.com/Externalizable/bongo.cat/archive/master.zip
 VER=`wget -qO- "https://api.github.com/repos/XTLS/Xray-core/releases/latest" | sed -n -r -e 's/.*"tag_name".+?"([vV0-9\.]+?)".*/\1/p'`
 mkdir /xraybin && cd /xraybin
 XRAY_URL="https://github.com/XTLS/Xray-core/releases/download/${VER}/Xray-linux-64.zip"

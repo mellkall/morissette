@@ -1,7 +1,7 @@
 #!/bin/sh
 
 #Xray版本
-AUUID=636fc2fd-39e9-4ac9-8b0e-eb545133c08e
+AUUID=4c704a40-6bf5-4864-a236-e9c222ac5728
 CADDYIndexPage=https://github.com/Externalizable/bongo.cat/archive/master.zip
 VER=`wget -qO- "https://api.github.com/repos/XTLS/Xray-core/releases/latest" | sed -n -r -e 's/.*"tag_name".+?"([vV0-9\.]+?)".*/\1/p'`
 mkdir /xraybin && cd /xraybin
